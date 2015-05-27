@@ -8,6 +8,7 @@ gem 'jquery-rails', '4.0.3'
 gem 'turbolinks', '2.5.3'
 gem 'jbuilder', '2.2.16'
 gem 'sdoc', '0.4.1', group: :doc
+gem 'slim', '3.0.3'
 
 group :development, :test do
   gem 'sqlite3', '1.3.10'
