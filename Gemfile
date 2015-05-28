@@ -9,6 +9,7 @@ gem 'turbolinks', '2.5.3'
 gem 'jbuilder', '2.2.16'
 gem 'sdoc', '0.4.1', group: :doc
 gem 'slim', '3.0.3'
+gem 'bootstrap-sass', '3.3.4.1'
 
 group :development, :test do
   gem 'sqlite3', '1.3.10'
