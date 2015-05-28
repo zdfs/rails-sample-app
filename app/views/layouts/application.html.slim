@@ -2,9 +2,7 @@ doctype html
 html
   head
     meta charset="utf-8"
-    title
-      = yield(:title)
-      |  | Ruby on Rails Tutorial Sample App
+    title = full_title(yield(:title))
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
     = csrf_meta_tags
 
