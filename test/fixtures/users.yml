@@ -1,1 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+zdfs:
+  name: Zachary Forrest
+  email: zach@faint.io
+  password_digest: <%= User.digest('password') %>
