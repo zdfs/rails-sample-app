@@ -11,12 +11,15 @@ gem 'sdoc', '0.4.1', group: :doc
 gem 'slim', '3.0.3'
 gem 'bootstrap-sass', '3.3.4.1'
 gem 'bcrypt', '3.1.10'
+gem 'faker', '1.4.3'
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.10'
-  gem 'byebug', '5.0.0'
-  gem 'web-console', '2.1.2'
-  gem 'spring', '1.3.6'
+	gem 'sqlite3', '1.3.10'
+	gem 'byebug', '5.0.0'
+	gem 'web-console', '2.1.2'
+	gem 'spring', '1.3.6'
 end
 
 group :test do
@@ -27,7 +30,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.18.2'
-  gem 'rails_12factor', '0.0.3'
-  gem 'puma', '2.11.3'
+	gem 'pg', '0.18.2'
+	gem 'rails_12factor', '0.0.3'
+	gem 'puma', '2.11.3'
 end
