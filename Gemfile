@@ -14,6 +14,9 @@ gem 'bcrypt', '3.1.10'
 gem 'faker', '1.4.3'
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
+gem 'carrierwave', '0.10.0'
+gem 'mini_magick', '4.2.7'
+gem 'fog', '1.30.0'
 
 group :development, :test do
 	gem 'sqlite3', '1.3.10'
